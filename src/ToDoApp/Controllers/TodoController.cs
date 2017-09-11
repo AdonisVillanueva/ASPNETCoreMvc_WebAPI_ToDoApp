@@ -74,7 +74,7 @@ namespace ToDoApp.Controllers
             [HttpOptions]
             public void PastDue(ToDoItem item)
             {
-                item.Priority = "Past Due";
+            item.Priority = "Past Due";
                 _context.ToDoTempItems.Update(item);
                 _context.SaveChanges();
             }
