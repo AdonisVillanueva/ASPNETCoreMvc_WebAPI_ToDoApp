@@ -17,4 +17,4 @@ Paste the follwing as JSON data and hit send
     "DeadLine": "2017-09-23"
 }
 
-Choosing Get returns all records. Get with params: Key = ID, Value is the Id of the tod item. Put updates a record.
+Choosing Get returns all records. Get with params: Key = ID, Value is the Id of the to do item. Put updates a record.
