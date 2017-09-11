@@ -5,9 +5,10 @@ This is a simple To Do app with a Web Api end point. It will accept JSON data an
 2. Run the app: dotnet run
 3. Go to: http://localhost:(port)/swagger - the port is where the app is listening, in most cases it's 5000
 4. Use Swagger ui to test the web api:  GET/POST/PUT/UPDATE and DELETE a To do item.
+![alt text](http://i63.tinypic.com/30igvbl.jpg)
 
 Alternatively, you can use Postman(https://www.getpostman.com/) to invoke the methods in the web api.
-
+![alt text](http://i65.tinypic.com/14j3iwl.jpg)
 For adding a record in Postman: Choose POST > BODY > RAW > JSON
 Paste the follwing as JSON data and hit send
 {
@@ -18,3 +19,4 @@ Paste the follwing as JSON data and hit send
 }
 
 Choosing Get returns all records. Get with params: Key = ID, Value is the Id of the to do item. Put updates a record.
+
