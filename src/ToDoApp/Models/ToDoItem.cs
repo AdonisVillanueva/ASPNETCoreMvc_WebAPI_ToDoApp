@@ -41,5 +41,11 @@ namespace ToDoApp.Models
         /// </summary>
         [Required]
         public Boolean IsComplete { get; set; }
+
+        /// <summary>
+        /// Priority   
+        /// </summary>
+        [Required]
+        public string Priority { get; set; }
     }
 }

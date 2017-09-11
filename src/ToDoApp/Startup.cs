@@ -58,7 +58,7 @@ namespace ToDoApp
                 {
                     Version = "v1",
                     Title = "To Do List",
-                    Description = "A To do list application in ASP.NET CORE MVC",
+                    Description = "A To do list application in ASP.NET CORE MVC (Web API)",
                     TermsOfService = "None",
                     Contact = new Contact { Name = "Adonis Villanueva", Email = "", Url = "https://github.com/adonisabril" },
                     License = new License { Name = "Use under MIT", Url = "https://en.wikipedia.org/wiki/MIT_License" }

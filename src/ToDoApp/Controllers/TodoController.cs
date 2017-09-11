@@ -71,10 +71,10 @@ namespace ToDoApp.Controllers
             /// This method flags the to do item as past due.
             /// </summary>
             /// <param name="item"></param>   
+            [HttpOptions]
             public void PastDue(ToDoItem item)
             {
-                item.Note = "(This Item is Past Due)" + item.Note;
-                item.Name = "(This Item is Past Due)" + item.Name;
+                item.Priority = "Past Due";
                 _context.ToDoTempItems.Update(item);
                 _context.SaveChanges();
             }
